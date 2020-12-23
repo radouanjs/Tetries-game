@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tetries Game</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+<body>
+    
+    <section class="game">
+        <div class="intro">
+            <h1>The Tetries Game</h1>
+            <div id="score">
+                <p>Score</p> 
+                <span>0</span>
+            </div>
+        </div>
+        <div class="canva">
+            <canvas width="250" height="500" id="canva" ></canvas>
+            <div id="game-over">
+                <h1>Game Over</h1>
+                <button id="play">PLAY AGAIN</button>
+            </div>
+        </div>
+    </section>
+<script src="js/tetrominos.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
